@@ -1,6 +1,6 @@
 package models
 
-import "github.com/anwarul/healthtracking_engine/framework/entity"
+import entity "github.com/anwarul/healthtracking_engine/Framework/Entity"
 
 type HeartRateBasic[T any] struct {
 	MinValue float32 `json:"minValue"`

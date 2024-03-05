@@ -1,6 +1,6 @@
 package models
 
-import "github.com/anwarul/healthtracking_engine/framework/entity"
+import entity "github.com/anwarul/healthtracking_engine/Framework/Entity"
 
 type HealthTrackingSyncLog[T any] struct {
 	SyncDataDate T      `json:"syncDataDate"`

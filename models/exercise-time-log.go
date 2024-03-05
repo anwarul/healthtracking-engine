@@ -1,8 +1,8 @@
 package models
 
 import (
+	entity "github.com/anwarul/healthtracking_engine/Framework/Entity"
 	"github.com/anwarul/healthtracking_engine/enums"
-	"github.com/anwarul/healthtracking_engine/framework/entity"
 )
 
 type ExerciseTimeLogBasic[T any] struct {
